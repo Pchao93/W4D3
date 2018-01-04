@@ -1,0 +1,29 @@
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
+  // background: blue;
+
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+
+.sections {
+  display: flex;
+  font-family: $sans-serif;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 725px;
+  // border-bottom: 1px solid $light-gray;
+}
+
+.sections a:hover {
+  background: $light-gray;
+  border-radius: 3px;
+  text-decoration: none;
+
+}
+
+.sections a#last:hover {
+  background: transparent;
+  border-radius: 3px;
+  text-decoration: underline;
+}
